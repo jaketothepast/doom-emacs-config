@@ -100,7 +100,7 @@
  :leader (:prefix ("l" . "Lisps")
           :nvie ">" #'sp-forward-sexp
           :nvie "<" #'sp-backward-sexp
-          :nvim "u" #'sp-unwrap-sexp
+          :nvim "u" #'sp-up-sexp
           :nie "C-c f" #'cider-format-buffer
           :nie "c" #'sp-copy-sexp
           :nie "k" #'sp-kill-sexp
